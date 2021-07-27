@@ -36,6 +36,7 @@ li {
 }
 .temperature {
   font-weight: bold;
+  color: black;
   font-size: 60px;
   position: relative;
   top: -30px;
@@ -93,7 +94,11 @@ li {
 .sixth-temp {
   margin-left: 15px;
 }
-.source-code {
-  max-width: 700px;
-  margin-left: 30px;
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
