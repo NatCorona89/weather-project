@@ -43,6 +43,7 @@ li {
 .units {
   position: relative;
   top: -55px;
+  font-size: 20px;
 }
 .sun-icon {
   color: yellow;
