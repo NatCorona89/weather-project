@@ -37,10 +37,12 @@ li {
 .temperature {
   font-weight: bold;
   font-size: 60px;
+  position: relative;
+  top: -30px;
 }
 .units {
   position: relative;
-  top: -28px;
+  top: -55px;
 }
 .sun-icon {
   color: yellow;
