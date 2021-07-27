@@ -1,6 +1,6 @@
 .weather-app {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 700px;
+  margin: 30px auto;
 }
 
 h1 {
@@ -16,9 +16,7 @@ li {
   margin-left: -30px;
   list-style: none;
 }
-.sun-temperature {
-  font-size: 60px;
-}
+
 .current {
   font-size: 22px;
 }
@@ -31,18 +29,26 @@ li {
 }
 
 .search-bar {
-  width: 400px;
+  width: 300px;
   margin-left: 20px;
   display: inline-block;
   margin: 0 auto;
 }
+.temperature {
+  font-weight: bold;
+  font-size: 60px;
+}
+.units {
+  position: relative;
+  top: -28px;
+}
 .sun-icon {
   color: yellow;
-  font-size: 80px;
+  font-size: 70px;
 }
 .cloud-icon {
   color: whitesmoke;
-  font-size: 80px;
+  font-size: 70px;
 }
 .weather {
   font-family: "Poppins", sans-serif;
@@ -83,4 +89,8 @@ li {
 }
 .sixth-temp {
   margin-left: 15px;
+}
+.source-code {
+  max-width: 700px;
+  margin-left: 30px;
 }
