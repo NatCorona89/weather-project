@@ -22,7 +22,7 @@ li {
 }
 .emoji {
   position: absolute;
-  top: 100px;
+  top: 50px;
   font-size: 22px;
   right: 0;
   width: 150px;
@@ -45,14 +45,6 @@ li {
   position: relative;
   top: -55px;
   font-size: 20px;
-}
-.sun-icon {
-  color: yellow;
-  font-size: 70px;
-}
-.cloud-icon {
-  color: whitesmoke;
-  font-size: 70px;
 }
 .weather {
   font-family: "Poppins", sans-serif;
