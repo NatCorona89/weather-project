@@ -5,7 +5,6 @@
 
 h1 {
   font-family: "Mate SC", serif;
-  color: blueviolet;
 }
 
 li {
@@ -59,42 +58,7 @@ li {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
-.monday {
-  margin-left: 12px;
-}
-.tuesday {
-  margin-left: 10px;
-}
-.wednesday {
-  margin-left: 10px;
-}
-.thursday {
-  margin-left: 15px;
-}
-.friday {
-  margin-left: 19px;
-}
-.saturday {
-  margin-left: 8px;
-}
-.first-temp {
-  margin-left: 15px;
-}
-.second-temp {
-  margin-left: 15px;
-}
-.third-temp {
-  margin-left: 23px;
-}
-.fourth-temp {
-  margin-left: 28px;
-}
-.fifth-temp {
-  margin-left: 15px;
-}
-.sixth-temp {
-  margin-left: 15px;
-}
+
 .weather-temperature .active {
   color: black;
   cursor: default;
@@ -102,4 +66,18 @@ li {
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+}
+.weather-forecast-date {
+  font-size: 16px;
+}
+.weather-forecast-temperature {
+  font-size: 16px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
