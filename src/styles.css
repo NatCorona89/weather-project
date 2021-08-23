@@ -34,21 +34,43 @@ li {
   font-size: 20px;
   right: 0;
   width: 150px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .search-bar {
   width: 300px;
-  margin-left: 20px;
   display: inline-block;
   margin: 0 auto;
 }
 
-.geo-button {
-  border: 2px solid whitesmoke;
+.geo-button .btn {
+  border: 1px solid whitesmoke;
   border-radius: 10px;
 }
-.search-button {
-  border: 2px solid whitesmoke;
+.geo-button:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid transparent;
+  transition: all 200ms ease;
+  box-shadow: 3px 3px 5px whitesmoke;
+  border-radius: 10px;
+}
+
+.search-button .btn {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding-block: 7px;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.search-button:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid transparent;
+  transition: all 200ms ease;
+  box-shadow: 3px 3px 5px whitesmoke;
   border-radius: 10px;
 }
 .temperature {
@@ -98,8 +120,17 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
 #open-source-link {
   text-decoration: none;
-  color: black;
-  font-size: 30px;
+  color: rgb(5, 81, 104);
+  font-size: 20px;
+}
+
+#open-source-link:hover {
+  text-decoration: underline;
+  transition: all 200ms ease;
+}
+.name {
+  font-size: 20px;
 }
